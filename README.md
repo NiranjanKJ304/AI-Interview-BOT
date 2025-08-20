@@ -8,7 +8,7 @@ It generates domain-specific questions, listens to answers via microphone, evalu
 ---
 
 ## Project Structure
-ai-interview-system/
+AI-Interview-BOT/
 ├── backend/
 │   ├── app.py
 │   ├── requirements.txt
@@ -47,8 +47,8 @@ ai-interview-system/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/ai-interview-system.git
-cd ai-interview-system
+git clone https://github.com/NiranjanKJ304/AI-Interview-BOT.git
+cd AI-Interview-BOT
 
 ## Backend run
 cd backend
