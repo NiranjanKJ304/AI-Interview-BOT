@@ -47,21 +47,21 @@ AI-Interview-BOT/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/NiranjanKJ304/AI-Interview-BOT.git
-cd AI-Interview-BOT
+- git clone https://github.com/NiranjanKJ304/AI-Interview-BOT.git
+- cd AI-Interview-BOT
 
 ## Backend run
-cd backend
-python -m venv venv
-venv\Scripts\activate   # Windows
-pip install -r requirements.txt
+- cd backend
+- python -m venv venv
+- venv\Scripts\activate   # Windows
+- pip install -r requirements.txt
 
-Create a .env file inside backend/:
-GEMINI_API_KEY="re-place your Gemeni-API"
+- Create a .env file inside backend/:
+- GEMINI_API_KEY="re-place your Gemeni-API"
 
-Run backend:
-python app.py
+## Run backend:
+- python app.py
 
 ## Frontend run
-Open frontend/index.html in your browser
+- Open frontend/index.html in your browser
 
