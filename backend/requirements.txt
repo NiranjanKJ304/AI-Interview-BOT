@@ -1,0 +1,7 @@
+flask
+flask-cors
+google-generativeai
+gtts
+playsound==1.2.2
+SpeechRecognition
+pyaudio

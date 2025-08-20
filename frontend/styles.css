@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-flex-container {
+  display: flex;
+  min-height: 100vh;
+  padding-right: 400px; /* Reserve space for the right panel */
+}
+
+.left-panel {
+  flex: 1;
+  padding: 2rem 4rem;
+  overflow-y: auto;
+  max-width: 800px; /* FIX the left side width */
+  margin: 0 auto;   /* Center the left content nicely */
+  text-align: left;
+}
+
+.right-panel {
+  width: 350px;
+  background: #f8f9fa;
+  padding: 1rem;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Webcam box inside right panel */
+.webcam-container {
+  position: relative;
+  text-align: center;
+}
+
+.webcam-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#poseResult {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Interview box inside left panel */
+.container {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h1 {
+  text-align: left;
+  color: #4b6cb7;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Card box */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Inputs and buttons */
+select, input[type="number"], button {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #364f92;
+}
+
+/* Question and Answer text */
+#question, #modelAnswer, #userAnswer {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
